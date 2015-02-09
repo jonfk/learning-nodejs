@@ -1,4 +1,4 @@
-var width = 1200, height = 800;
+var width = 1400, height = 1000;
 
 var circleWidth = 5;
 
@@ -158,7 +158,7 @@ d3.json("data.json", function(error, graph) {
 
     force.nodes(graph.nodes)
         .links(graph.links)
-        .linkDistance(300)
+        .linkDistance(500)
         .start();
     // force.start();
 });
