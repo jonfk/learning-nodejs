@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'through2-map' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'through2-map', null ]
+6 verbose cache add name=undefined spec="through2-map" args=["through2-map",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'through2-map',
+7 verbose parsed url   path: 'through2-map',
+7 verbose parsed url   href: 'through2-map' }
+8 silly lockFile c7179708-through2-map through2-map
+9 verbose lock through2-map /home/jon/.npm/c7179708-through2-map.lock
+10 silly lockFile c7179708-through2-map through2-map
+11 silly lockFile c7179708-through2-map through2-map
+12 verbose addNamed [ 'through2-map', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 13533bc5-through2-map through2-map@
+15 verbose lock through2-map@ /home/jon/.npm/13533bc5-through2-map.lock
+16 silly addNameRange { name: 'through2-map', range: '*', hasData: false }
+17 verbose request where is /through2-map
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f9f230267de27b82
+20 verbose url raw /through2-map
+21 verbose url resolving [ 'https://registry.npmjs.org/', './through2-map' ]
+22 verbose url resolved https://registry.npmjs.org/through2-map
+23 verbose request where is https://registry.npmjs.org/through2-map
+24 info trying registry request attempt 1 at 15:15:51
+25 verbose etag "64U5C51VJAQ4XAOMOI3XS8OD3"
+26 http GET https://registry.npmjs.org/through2-map
+27 http 304 https://registry.npmjs.org/through2-map
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 27 Jan 2015 20:15:51 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 20:15:51 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"64U5C51VJAQ4XAOMOI3XS8OD3"',
+28 silly registry.get     age: '28',
+28 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1422389751.520991,VS0,VE1',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/through2-map from cache
+30 silly addNameRange number 2 { name: 'through2-map', range: '*', hasData: true }
+31 silly addNameRange versions [ 'through2-map',
+31 silly addNameRange   [ '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.4.0' ] ]
+32 verbose addNamed [ 'through2-map', '1.4.0' ]
+33 verbose addNamed [ '1.4.0', '1.4.0' ]
+34 silly lockFile 5ab69fe7-through2-map-1-4-0 through2-map@1.4.0
+35 verbose lock through2-map@1.4.0 /home/jon/.npm/5ab69fe7-through2-map-1-4-0.lock
+36 silly lockFile 17815200-ough2-map-through2-map-1-4-0-tgz https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz
+37 verbose lock https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz /home/jon/.npm/17815200-ough2-map-through2-map-1-4-0-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz',
+38 verbose addRemoteTarball   '7cb13e7c9ef00c7a93c742567f9d2e51168ff7f5' ]
+39 info retry fetch attempt 1 at 15:15:52
+40 verbose fetch to= /tmp/npm-17480-yVcgcltg/registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz
+41 http GET https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz
+42 http 200 https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz
+43 silly lockFile 17815200-ough2-map-through2-map-1-4-0-tgz https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz
+44 silly lockFile 17815200-ough2-map-through2-map-1-4-0-tgz https://registry.npmjs.org/through2-map/-/through2-map-1.4.0.tgz
+45 silly lockFile 5ab69fe7-through2-map-1-4-0 through2-map@1.4.0
+46 silly lockFile 5ab69fe7-through2-map-1-4-0 through2-map@1.4.0
+47 silly lockFile 13533bc5-through2-map through2-map@
+48 silly lockFile 13533bc5-through2-map through2-map@
+49 error Error: EACCES, mkdir '/home/jon/.npm/through2-map/1.4.0'
+49 error  { [Error: EACCES, mkdir '/home/jon/.npm/through2-map/1.4.0']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/home/jon/.npm/through2-map/1.4.0' }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.13.0-43-generic
+52 error command "/usr/bin/node" "/usr/bin/npm" "install" "through2-map"
+53 error cwd /home/jon/Code/nodejs/learnyounode
+54 error node -v v0.10.35
+55 error npm -v 1.4.28
+56 error path /home/jon/.npm/through2-map/1.4.0
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/home/jon/.npm/through2-map/1.4.0'
+60 verbose exit [ 3, true ]
