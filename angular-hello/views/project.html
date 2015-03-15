@@ -1,0 +1,38 @@
+<div class="container">
+
+  <div class="col-lg-12">
+    <h3 class="page-header">{{ projectName }} </h3>
+  </div>
+
+  <div class="row" data-ng-repeat="feature in features">
+    <div class="col-lg-12">
+      <table class="table table-striped">
+        <tr>
+          <td>Feature</td>
+          <td> {{feature.name}}</td>
+        <tr>
+        <tr>
+          <td>Bundles</td>
+          <td>
+            <ul class="list-group">
+              <li class="list-group-item" data-ng-repeat="bundle in feature.bundles">{{ bundle }}</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Sub Features</td>
+          <td>
+            <ul class="list-group">
+              <li class="list-group-item" data-ng-repeat="subfeature in feature.subFeatures"><a href="#{{ subfeature }}">{{ subfeature }}</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Version</td>
+          <td> {{ feature.version }} </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</div>
